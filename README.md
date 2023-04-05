@@ -3,6 +3,8 @@
 Welcome to CGI test assignment!
 This is the project template which contains Angular front-end and Spring Boot back-end
 
+0. Fork the repository.
+
 ## Setting up Spring Boot application.
 
 1. Make sure you have installed Java. For development OpenJDK 11 from [Adoptium](https://adoptium.net/) should be used.
@@ -36,9 +38,9 @@ To get Angular app up and running you need to:
 
 * Tasks don't have to be completed in order.
 * Try to complete as many as possible. 
-* You are free to modify both front-end and back-end as you deem necessary. This includes the option to use another front-end framework if you wish.
+* You are free to modify both front-end and back-end as you deem necessary. 
 * Regarding UI design, you are also free to choose: use Material Design components, your favorite library or implement everything yourself.
-* You can and are encouraged to also implement additional cool features that you think would
+* You can and are encouraged to also implement additional features that you think would
 really help showcase and distinguish your skills.
 
 * We appreciate if you use version control and commit often, so we can also get an insight into your
@@ -62,13 +64,10 @@ If you have any questions, please reach out without hesitation. Best of luck!
 * Implement saving / displaying favorite books for current user (you can use localStorage if you don't want to make back-end changes)
 * Add modal confirmation dialogues when deleting or checking out books
 * Implement a user-friendly way to display late checkouts
-
-#####Bonus tasks:
 * Implement advanced search form for books, where user can specify and combine different criterias (title, author year etc)
 * Add UI and backend tests 
 * Add support for multiple languages
 * Add support for multiple users and different user roles: reader and librarian.
 Reader should not be able to add / modify / delete existing book information or tamper with checkouts
 but should be able to save favorites and check out / return books (that they have checked out)
-* Containerize your application to make it cloud-native
 
